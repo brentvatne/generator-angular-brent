@@ -60,7 +60,7 @@ var AngularBrentGenerator = yeoman.generators.Base.extend({
     }];
 
     this.prompt(prompts, function (props) {
-      this.packageName = 'angular-brent-' + props.packageName;
+      this.packageName = 'angular-' + props.packageName;
       this.namespacedPackageName = 'bv.' + props.packageName;
       this.packageDescription = props.packageDescription;
 
