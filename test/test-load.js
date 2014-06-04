@@ -2,7 +2,7 @@
 'use strict';
 var assert = require('assert');
 
-describe('angular-gabe generator', function () {
+describe('angular-brent generator', function () {
   it('can be imported without blowing up', function () {
     var app = require('../app');
     assert(app !== undefined);

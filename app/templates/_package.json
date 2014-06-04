@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/garbles/<%= packageName %>.git"
+    "url": "https://github.com/brentvatne/<%= packageName %>.git"
   },
   "scripts": {
     "test": "grunt test"
   },
   "keywords": <%= packageKeywords %>,
-  "author": "Gabriel Scholz <info@garbl.es>",
+  "author": "Brent Vatne <brentvatne@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/garbles/<%= packageName %>/issues"
+    "url": "https://github.com/brentvatne/<%= packageName %>/issues"
   },
   "dependencies": {},
   "devDependencies": {

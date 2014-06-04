@@ -5,14 +5,14 @@ var yeoman = require('yeoman-generator');
 var yosay = require('yosay');
 var chalk = require('chalk');
 
-var AngularGabeGenerator = yeoman.generators.Base.extend({
+var AngularBrentGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
 
     this.on('end', function () {
       this.installDependencies();
       var that = this,
-        githubRepoName = 'https://github.com/garbles/' + that.packageName;
+        githubRepoName = 'https://github.com/brentvatne/' + that.packageName;
 
       if (that.githubRepo) {
         that.spawnCommand('hub', ['init']).on('exit', function () {
@@ -34,8 +34,6 @@ var AngularGabeGenerator = yeoman.generators.Base.extend({
 
   askFor: function () {
     var done = this.async();
-
-    this.log(yosay('Sup, bruh? Welcome to Gabe\'s amazing AngularJS package generator!'));
 
     var prompts = [{
       name: 'packageName',
@@ -62,8 +60,8 @@ var AngularGabeGenerator = yeoman.generators.Base.extend({
     }];
 
     this.prompt(prompts, function (props) {
-      this.packageName = 'angular-gs-' + props.packageName;
-      this.namespacedPackageName = 'gs.' + props.packageName;
+      this.packageName = 'angular-brent-' + props.packageName;
+      this.namespacedPackageName = 'bv.' + props.packageName;
       this.packageDescription = props.packageDescription;
 
       var keywords = props.packageKeywords.split(/\s*\,\s*/).concat('angular');
@@ -102,4 +100,4 @@ var AngularGabeGenerator = yeoman.generators.Base.extend({
   }
 });
 
-module.exports = AngularGabeGenerator;
+module.exports = AngularBrentGenerator;

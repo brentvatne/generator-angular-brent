@@ -1,4 +1,4 @@
-# generator-angular-gabe
+# generator-angular-brent
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -23,16 +23,16 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-angular-gabe from npm, run:
+To install generator-angular-brent from npm, run:
 
 ```bash
-$ npm install -g generator-angular-gabe
+$ npm install -g generator-angular-brent
 ```
 
 Finally, initiate the generator:
 
 ```bash
-$ yo angular-gabe
+$ yo angular-brent
 ```
 
 ### Getting To Know Yeoman

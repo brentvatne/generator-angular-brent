@@ -2,13 +2,13 @@
   "name": "<%= packageName %>",
   "version": "0.1.0",
   "authors": [
-    "Gabriel Scholz <info@garbl.es>"
+    "Brent Vatne <brentvatne@gmail.com>"
   ],
   "description": "<%= packageDescription %>",
   "main": "./build/<%= packageName %>.js",
   "keywords": <%= packageKeywords %>,
   "license": "MIT",
-  "homepage": "https://github.com/garbles/<%= packageName %>",
+  "homepage": "https://github.com/brentvatne/<%= packageName %>",
   "ignore": [
     "src",
     "node_modules",
